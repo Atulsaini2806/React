@@ -55,3 +55,8 @@
 (Normal JS utility function)
 - usrState():-Superpowerful State Variables
 - useEffect()
+
+
+# 2 types of Rounting in web app:-
+- Client Side Routing
+- Server side Routing
