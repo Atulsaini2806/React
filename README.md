@@ -60,3 +60,34 @@
 # 2 types of Rounting in web app:-
 - Client Side Routing
 - Server side Routing
+
+
+
+# class based componet life cycle:-
+#  when we have only one child-
+- Parent constructor
+- Parent render
+
+   - child constructor
+   - child render
+   - child componentDidMount
+
+- Parent componentDidMount
+
+
+# whem we have two or more then two children:-
+- Parent constructor
+- Parent render
+
+  - First child constructor
+  - First child render
+
+   /due to reconsilization process
+  - Second child constructor
+  - Second child render
+
+   <DOM UPDATED  IN SINGLE BATCH>
+   - First child componentDidMount
+   - Second child componentDidMount
+
+- Parent componentDidMount
