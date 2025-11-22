@@ -20,7 +20,7 @@ class UserClass extends React.Component{
 
         const data = await fetch("https://api.github.com/users/Atulsaini2806");
         const json = await data.json();
-        
+         
         this.setState({
             userInfo : json,
         })
