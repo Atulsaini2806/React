@@ -18,7 +18,7 @@ class UserClass extends React.Component{
     async componentDidMount(){
         //console.log("child componentDidMount");
 
-        const data = await fetch("https://api.github.com/users/ujjwalgarg-byt");
+        const data = await fetch("https://api.github.com/users/Atulsaini2806");
         const json = await data.json();
         
         this.setState({
