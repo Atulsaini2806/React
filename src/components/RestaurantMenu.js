@@ -8,7 +8,6 @@ const RestaurantMenu = () => {
 
   const {resId} = useParams();
   
-
   useEffect(() => {
     // Set MenuData only once when component mounts
     console.log(MenuData.data);
