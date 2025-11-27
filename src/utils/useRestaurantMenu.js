@@ -6,7 +6,7 @@ const useRestaurantMenu = (resId) =>{
 
     useEffect(() => {
     // Set MenuData only once when component mounts
-     console.log(MenuData.data);
+    // console.log(MenuData.data);
     
     setResInfo(MenuData.data);
    }, []); // ✅ empty dependency array → runs once
