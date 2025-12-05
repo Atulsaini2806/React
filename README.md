@@ -91,3 +91,15 @@
    - Second child componentDidMount
 
 - Parent componentDidMount
+
+
+
+
+
+# Redux Toolkit:-
+- Install @reduxjs/toolkit and react-redux
+- Build our store
+- Cconnect our store to our app
+- Slice (cartSlice)
+- Dispatch(action)
+- Selector
