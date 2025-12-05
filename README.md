@@ -75,7 +75,7 @@
 - Parent componentDidMount
 
 
-# whem we have two or more then two children:-
+# when we have two or more then two children:-
 - Parent constructor
 - Parent render
 
